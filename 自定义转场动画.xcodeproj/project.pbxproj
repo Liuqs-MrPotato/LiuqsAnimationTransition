@@ -15,6 +15,11 @@
 		731E08CD1D51999A0061A21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 731E08CB1D51999A0061A21F /* LaunchScreen.storyboard */; };
 		731E08D81D51999A0061A21F /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E08D71D51999A0061A21F /* _______Tests.m */; };
 		731E08E31D51999A0061A21F /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E08E21D51999A0061A21F /* _______UITests.m */; };
+		731E08F21D5199C60061A21F /* pushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E08F11D5199C60061A21F /* pushViewController.m */; };
+		731E08FE1D51BDD60061A21F /* LiuqsAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E08FD1D51BDD60061A21F /* LiuqsAnimationTransition.m */; };
+		731E09011D51C6030061A21F /* LiuqsAnimationPopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 731E09001D51C6030061A21F /* LiuqsAnimationPopTransition.m */; };
+		731E09031D51C8570061A21F /* 8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 731E09021D51C8570061A21F /* 8.JPG */; };
+		731E09051D51C85F0061A21F /* 4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 731E09041D51C85F0061A21F /* 4.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		731E08DE1D51999A0061A21F /* 自定义转场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义转场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		731E08E21D51999A0061A21F /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		731E08E41D51999A0061A21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		731E08F01D5199C60061A21F /* pushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushViewController.h; sourceTree = "<group>"; };
+		731E08F11D5199C60061A21F /* pushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushViewController.m; sourceTree = "<group>"; };
+		731E08FC1D51BDD60061A21F /* LiuqsAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiuqsAnimationTransition.h; sourceTree = "<group>"; };
+		731E08FD1D51BDD60061A21F /* LiuqsAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiuqsAnimationTransition.m; sourceTree = "<group>"; };
+		731E08FF1D51C6030061A21F /* LiuqsAnimationPopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiuqsAnimationPopTransition.h; sourceTree = "<group>"; };
+		731E09001D51C6030061A21F /* LiuqsAnimationPopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiuqsAnimationPopTransition.m; sourceTree = "<group>"; };
+		731E09021D51C8570061A21F /* 8.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.JPG; sourceTree = "<group>"; };
+		731E09041D51C85F0061A21F /* 4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +114,18 @@
 		731E08BC1D51999A0061A21F /* 自定义转场动画 */ = {
 			isa = PBXGroup;
 			children = (
+				731E09041D51C85F0061A21F /* 4.JPG */,
+				731E09021D51C8570061A21F /* 8.JPG */,
+				731E08FF1D51C6030061A21F /* LiuqsAnimationPopTransition.h */,
+				731E09001D51C6030061A21F /* LiuqsAnimationPopTransition.m */,
+				731E08FC1D51BDD60061A21F /* LiuqsAnimationTransition.h */,
+				731E08FD1D51BDD60061A21F /* LiuqsAnimationTransition.m */,
 				731E08C01D51999A0061A21F /* AppDelegate.h */,
 				731E08C11D51999A0061A21F /* AppDelegate.m */,
 				731E08C31D51999A0061A21F /* ViewController.h */,
 				731E08C41D51999A0061A21F /* ViewController.m */,
+				731E08F01D5199C60061A21F /* pushViewController.h */,
+				731E08F11D5199C60061A21F /* pushViewController.m */,
 				731E08C61D51999A0061A21F /* Main.storyboard */,
 				731E08C91D51999A0061A21F /* Assets.xcassets */,
 				731E08CB1D51999A0061A21F /* LaunchScreen.storyboard */,
@@ -252,6 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731E09031D51C8570061A21F /* 8.JPG in Resources */,
+				731E09051D51C85F0061A21F /* 4.JPG in Resources */,
 				731E08CD1D51999A0061A21F /* LaunchScreen.storyboard in Resources */,
 				731E08CA1D51999A0061A21F /* Assets.xcassets in Resources */,
 				731E08C81D51999A0061A21F /* Main.storyboard in Resources */,
@@ -279,8 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731E09011D51C6030061A21F /* LiuqsAnimationPopTransition.m in Sources */,
 				731E08C51D51999A0061A21F /* ViewController.m in Sources */,
 				731E08C21D51999A0061A21F /* AppDelegate.m in Sources */,
+				731E08FE1D51BDD60061A21F /* LiuqsAnimationTransition.m in Sources */,
+				731E08F21D5199C60061A21F /* pushViewController.m in Sources */,
 				731E08BF1D51999A0061A21F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义转场动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "quanshui.cn.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "自定义转场动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "quanshui.cn.-------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +537,7 @@
 				731E08E91D51999A0061A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731E08EA1D51999A0061A21F /* Build configuration list for PBXNativeTarget "自定义转场动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +546,7 @@
 				731E08EC1D51999A0061A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731E08ED1D51999A0061A21F /* Build configuration list for PBXNativeTarget "自定义转场动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +555,7 @@
 				731E08EF1D51999A0061A21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

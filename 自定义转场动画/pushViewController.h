@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  pushViewController.h
 //  自定义转场动画
 //
 //  Created by 刘全水 on 16/8/3.
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface pushViewController : UIViewController
 
-//画小圆的位置以及大小
 @property (assign, nonatomic)CGPoint IconCenter;
 
-
 @end
-
